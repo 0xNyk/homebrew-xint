@@ -1,8 +1,9 @@
 # homebrew-xint
 
-Official Homebrew tap for `xint`.
+Official Homebrew tap for:
 
-The Homebrew package installs the Rust implementation (`xint-rs`) and exposes the `xint` CLI command.
+- `xint` (recommended package name)
+- `xint-rs` (explicit Rust variant)
 
 ## Install
 
@@ -21,12 +22,13 @@ brew install xint-rs
 
 ```bash
 brew update
-brew upgrade xint
+brew upgrade xint xint-rs
 ```
 
 ## Notes
 
-- `xint` in this tap is an alias to `xint-rs` for the best Homebrew UX and binary reliability.
+- `xint` and `xint-rs` currently package the same Rust implementation and both install the `xint` executable.
+- Homebrew will treat them as conflicting formulas; install one or the other.
 - The TypeScript/Bun implementation remains available via curl installer:
 
 ```bash
