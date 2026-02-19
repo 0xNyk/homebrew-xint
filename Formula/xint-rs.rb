@@ -4,11 +4,11 @@ class XintRs < Formula
   license "MIT"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/0xNyk/xint-rs/releases/download/2026.2.19.6/xint-rs-macos-arm64-2026.2.19.6.tar.gz"
-    sha256 "4423090c859298baf57c4282b2a969aafe1c057e51869c4a870e3cc75805a71a"
+    url "https://github.com/0xNyk/xint-rs/releases/download/2026.2.19.7/xint-rs-macos-arm64-2026.2.19.7.tar.gz"
+    sha256 "69ccad109461be08ceb54073270a3c1c185b69081fc6de1614a5f34dc46b8bc0"
   else
-    url "https://github.com/0xNyk/xint-rs/archive/refs/tags/2026.2.19.6.tar.gz"
-    sha256 "16a27ce57d481f43b8a7fb446fdb201b31c53653a374be836403d71232cafbd2"
+    url "https://github.com/0xNyk/xint-rs/archive/refs/tags/2026.2.19.7.tar.gz"
+    sha256 "dd9de50efdaac9b877a8085d277ff47dcf09fca4abbaccf16571b0df7a8afd8f"
     depends_on "rust" => :build
   end
   conflicts_with "xint", because: "both install the xint executable"
