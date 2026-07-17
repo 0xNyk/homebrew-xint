@@ -34,3 +34,7 @@ brew upgrade xint xint-rs
 ```bash
 curl -fsSL https://raw.githubusercontent.com/0xNyk/xint/main/install.sh | bash
 ```
+
+## Support
+
+Maintained by [Nyk](https://nyk.dev). If xint helps your work, [sponsor its continued maintenance](https://github.com/sponsors/0xNyk) or follow [@nykdotdev](https://x.com/nykdotdev).
